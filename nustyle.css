@@ -1,0 +1,196 @@
+/* animations */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* main css */
+
+body {
+  max-width: 1024px;
+  margin: 10px auto !important;
+}
+
+#wrap {
+  padding-bottom: 100px !important;
+}
+
+footer {
+  max-width: 1024px;
+  /*bottom: auto !important;*/
+}
+
+/* header */
+header {
+  background: none !important;
+}
+
+.loginInfo {
+  color: black !important;
+}
+
+/* header btn */
+#headerForm > header > nav > ul > div > li {
+  margin-right: 5px !important;
+}
+#headerForm > header > nav > ul > div > li:nth-child(3) {
+  display: none;
+}
+header nav li .headerBtn span {
+  box-shadow: gray 0 0 5px;
+  border-radius: 10px;
+}
+
+/* menu */
+#mainMenu .ui-widget-content {
+  border: none !important;
+  border-radius: 0;
+  background-color: #920033 !important;
+}
+#menuForm span.ui-menuitem-text {
+  color: white !important;
+}
+#menuForm\:mainMenu .ui-menuitem-active > a {
+  background-color: #8e2b32 !important;
+}
+#menuForm\:mainMenu
+  table
+  > tbody
+  > tr
+  > td
+  > ul
+  > li.ui-widget-header.ui-corner-all {
+  display: none;
+}
+#menuForm\:mainMenu
+  > ul
+  > li.ui-widget.ui-menuitem.ui-corner-all.ui-menu-parent.ui-menuitem-active
+  > ul
+  > table
+  > tbody
+  > tr
+  > td
+  > ul
+  > li.ui-menuitem.ui-widget.ui-corner-all
+  > a:hover {
+  background-color: #8e2b32 !important;
+}
+
+/* information tab */
+
+li.ui-state-default {
+  transition: border-top 0.5s;
+  border-top: solid 2px rgba(0, 0, 0, 0) !important;
+}
+
+#funcForm\:j_idt164
+  > ul
+  > li.ui-state-default.ui-tabs-selected.ui-state-active.ui-corner-top {
+  border: none !important;
+  border-top: solid 2px black !important;
+  background: none !important;
+  outline: none !important;
+}
+#funcForm\:j_idt164
+  > ul
+  > li.ui-state-default.ui-tabs-selected.ui-state-active.ui-corner-top
+  > a {
+  font-weight: bold;
+  cursor: default;
+}
+
+#funcForm\:j_idt164 > ul {
+  border: none !important;
+}
+
+#funcForm\:j_idt164 > div {
+  background: none !important;
+  min-height: 140px;
+}
+
+/* information badge & link */
+span.signPortal {
+  color: white;
+}
+span.signPortal.signPortalKeiji {
+  border: none !important;
+  background-color: red;
+}
+span.signPortal.signPortalJugyohyoka {
+  border: none !important;
+  background-color: green;
+}
+
+#funcForm a {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 580px;
+}
+#funcForm\:j_idt164\:j_idt211 a {
+  max-width: 450px;
+}
+
+/* main view tabs */
+
+#funcForm\:j_idt363
+  > ul
+  > li.ui-state-default.ui-tabs-selected.ui-state-active.ui-corner-top {
+  border: none !important;
+  border-top: solid 2px black !important;
+  background: none !important;
+  outline: none !important;
+}
+#funcForm\:j_idt363
+  > ul
+  > li.ui-state-default.ui-tabs-selected.ui-state-active.ui-corner-top
+  > a {
+  color: black !important;
+  font-weight: bold;
+  cursor: default;
+}
+#funcForm\:j_idt363 > ul {
+  border-bottom: none !important;
+}
+
+/* h2 tags */
+#portalCont h2 span:nth-child(1) {
+  background: none !important;
+  color: black !important;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right !important;
+  text-shadow: rgb(181, 181, 181) 0 1px 1px;
+}
+
+/* day */
+#portalDate .dateDisp {
+  color: black !important;
+  text-shadow: none !important;
+}
+
+#portalSchedule1 > h3 > span:nth-child(n) {
+  background: none !important;
+  text-align: left;
+  font-weight: bold;
+}
+#portalSchedule2 > h3 > span:nth-child(n) {
+  background: none !important;
+  text-align: left;
+  font-weight: bold;
+}
+
+#portalSchedule2 .signPortal {
+  width: 130px !important;
+  min-width: 130px !important;
+}
+
+.lessonMain p > span:nth-child(n + 6) {
+  display: none !important;
+}

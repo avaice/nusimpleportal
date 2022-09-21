@@ -1,0 +1,16 @@
+{
+  "name": "nu portal simplify",
+  "description": "みやすくする",
+  "version": "0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://portal.uprx.ce.nihon-u.ac.jp/uprx/up*"],
+      "js": ["nuscript.js"],
+      "css": ["nustyle.css"]
+    }
+  ]
+}
