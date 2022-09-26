@@ -2,8 +2,6 @@ const LOG_ENABLED = false
 const SIMPLE_DAYVIEW = true
 const logoSrc = 'https://portal.uprx.ce.nihon-u.ac.jp/uprx/images/univLogo.png'
 
-printLog('nusimpleportal is running!')
-
 const observer = new MutationObserver((mutations) => {
   // ロゴの差し替え
   const headerLogo = document.querySelector(
@@ -32,3 +30,5 @@ const printLog = (str) => {
   if (!LOG_ENABLED) return
   console.log(str)
 }
+
+printLog('nusimpleportal is running!')
