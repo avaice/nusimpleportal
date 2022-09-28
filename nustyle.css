@@ -123,6 +123,11 @@ span.signPortal.signPortalKeiji {
   border: none !important;
   background-color: red;
 }
+span.signPortal.signPortalKadai {
+  border: 3px solid blue !important;
+  background-color: transparent;
+  color: black;
+}
 span.signPortal.signPortalJugyohyoka {
   border: none !important;
   background-color: green;
@@ -195,4 +200,10 @@ span.signPortal.signPortalJugyohyoka {
 
 .lessonMain p > span:nth-child(n + 6) {
   display: none !important;
+}
+/* ポップアップアイコン */
+.ui-dialog {
+  width: auto !important;
+  margin-left: 10px;
+  margin-right: 10px;
 }
