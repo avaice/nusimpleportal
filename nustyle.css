@@ -124,7 +124,7 @@ span.signPortal.signPortalKeiji {
   background-color: red;
 }
 span.signPortal.signPortalKadai {
-  border: 3px solid blue !important;
+  border: none !important;
   background-color: transparent;
   color: black;
 }
