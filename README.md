@@ -14,4 +14,4 @@
 
 
 # 開発者募集
-一緒に開発してくれる人を募集しているので興味があればTwitterのDMかメール(学内メール)でご連絡ください
+一緒に開発してくれる人を募集しています！手伝ってくれる方は<a href="https://github.com/avaice/nusimpleportal/blob/main/documentation/how_to_collaborate.md">how_to_collaborate.md</a>をご覧ください
