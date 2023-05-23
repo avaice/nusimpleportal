@@ -1,0 +1,59 @@
+// @media (prefers-color-scheme: dark) {
+//   html {
+//     background: #000 !important;
+//     color: #eee;
+//   }
+//   .information {
+//     background: #222 !important;
+//   }
+//   // ユーザフォームのインプット部分
+//   #loginForm {
+//     & input {
+//       background: #222 !important;
+//     }
+//   }
+
+//   #portalSupport {
+//     & .ui-widget-header {
+//       background: none !important;
+//     }
+//   }
+//   #portalCont {
+//     filter: invert(1);
+//     // & .ui-widget-header {
+//     //   background: none !important;
+//     // }
+//   }
+//   .portalSchedule {
+//     background: none !important;
+//   }
+//   // , .portalSchedule .ui-widget-header
+// }
+@media (prefers-color-scheme: dark) {
+  html {
+    background: #eee !important;
+    filter: invert(1);
+  }
+  span.signPortal {
+    color: black;
+  }
+
+  #mainMenu {
+    & .ui-widget-content {
+      background: greenyellow !important;
+      color: black;
+    }
+    & span {
+      &.ui-menuitem-text {
+        color: black !important;
+      }
+    }
+  }
+  span {
+    &.signPortal {
+      &.signPortalKeiji {
+        background: greenyellow !important;
+      }
+    }
+  }
+}

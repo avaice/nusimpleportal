@@ -1,0 +1,19 @@
+@media (prefers-color-scheme: dark) {
+  html {
+    background: #eee !important;
+    filter: invert(1);
+  }
+  span.signPortal {
+    color: black;
+  }
+  #mainMenu .ui-widget-content {
+    background: greenyellow !important;
+    color: black;
+  }
+  #mainMenu span.ui-menuitem-text {
+    color: black !important;
+  }
+  span.signPortal.signPortalKeiji {
+    background: greenyellow !important;
+  }
+}/*# sourceMappingURL=nu_dark.css.map */
