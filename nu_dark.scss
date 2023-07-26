@@ -41,6 +41,11 @@
     color: black;
   }
 
+  img {
+    filter: invert(1);
+    background-color: white;
+  }
+
   #mainMenu {
     & .ui-widget-content {
       background: greenyellow !important;
