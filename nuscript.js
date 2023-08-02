@@ -22,8 +22,31 @@ const observer = new MutationObserver((mutations) => {
   ].forEach((dom) => {
     if (dom) dom.style.display = SIMPLE_DAYVIEW ? 'none' : 'block'
   })
+
+  //小テスト答え隠し機能
+  const answerTableElement = document.getElementById("funcForm:j_idt594")
+  const hasCreatedAnswerButton = !!(document.getElementById("nuscript_ansButton"))
+  if (answerTableElement && !hasCreatedAnswerButton) {
+    const answerButton = document.createElement("button");
+    answerButton.id = "nuscript_ansButton"
+    answerButton.innerText = "答えの確認"
+    answerButton.className = "ui-button ui-widget ui-state-default ui-corner-all"
+    answerButton.style.padding = "4px 14px"
+    answerButton.onclick = (e) => {
+      e.preventDefault()
+      answerButton.style.display = "none"
+      answerTableElement.style.opacity = ""
+    }
+    document.getElementById("funcForm:j_idt481").appendChild(answerButton)
+    answerTableElement.style.opacity = "0"
+  }
+
 })
 observer.observe(document, { childList: true, subtree: true })
+
+
+
+
 
 // ログ表示が有効な場合はコンソールにログを出力する
 const printLog = (str) => {
