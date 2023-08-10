@@ -10,7 +10,7 @@
     {
       "matches": ["https://portal.uprx.ce.nihon-u.ac.jp/uprx/up*"],
       "js": ["nuscript.js"],
-      "css": ["nustyle.css"]
+      "css": ["nustyle.css", "nu_dark.css"]
     }
   ]
 }
