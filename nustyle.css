@@ -131,6 +131,10 @@ span.signPortal.signPortalJugyohyoka {
   border: none !important;
   background-color: green;
 }
+span.signPortal.signPortalTest {
+  border: none !important;
+  background-color: #005882;
+}
 
 #funcForm a {
   display: inline-block;
